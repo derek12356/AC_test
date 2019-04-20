@@ -1,5 +1,8 @@
 .nav-section{
-
+	
+	button:focus {
+		outline:0;
+	}
 	.navbar{
 		padding:0;
 	}
@@ -30,6 +33,9 @@
 		justify-content: flex-end;
 		padding-right:10%;
 		&__lang{
+			img{
+				width:25px;
+			}
 			button{
 				border: none;
 			    background: transparent;
@@ -48,6 +54,7 @@
 		    outline: 0;
 		    padding: 5px;
 		    border: none;
+		    border-radius: 0;
 		}
 		&__icon{
 			position: absolute;
@@ -109,10 +116,4 @@
 			  }
 		}
 	}
-	@include media-breakpoint-down(xs){
-		&__logo-mobile{
-			display:none;
-		}
-	}
-
 }

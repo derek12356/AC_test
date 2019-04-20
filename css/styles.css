@@ -1,3 +1,6 @@
+.nav-section button:focus {
+  outline: 0; }
+
 .nav-section .navbar {
   padding: 0; }
 
@@ -27,6 +30,8 @@
   background-color: #4a4f55;
   justify-content: flex-end;
   padding-right: 10%; }
+  .nav-section__top__lang img {
+    width: 25px; }
   .nav-section__top__lang button {
     border: none;
     background: transparent;
@@ -41,7 +46,8 @@
     background-color: #e5e5e5;
     outline: 0;
     padding: 5px;
-    border: none; }
+    border: none;
+    border-radius: 0; }
   .nav-section__top__icon {
     position: absolute;
     top: 2px;
@@ -85,10 +91,6 @@
     width: 180px; }
   .nav-section__bottom ul {
     margin-left: 10px; } }
-
-@media (max-width: 575.98px) {
-  .nav-section__logo-mobile {
-    display: none; } }
 
 .header {
   /*padding:0 12%;*/ }
@@ -315,9 +317,13 @@
 
 .footer-section__bottom {
   background-color: #2b2b2b; }
+  .footer-section__bottom-icon {
+    width: 80px; }
   .footer-section__bottom__title {
     font-size: 1.4rem;
     color: #e5e5e5; }
+    .footer-section__bottom__title img {
+      width: 200px; }
   .footer-section__bottom__container {
     padding: 5% 9%; }
     .footer-section__bottom__container li a {

@@ -74,9 +74,15 @@
 	}
 	&__bottom{
 		background-color:$color-footer-bottom;
+		&-icon{
+			width:80px;
+		}
 		&__title{
 			font-size:1.4rem;
 			color:$color-grey-light;
+			img{
+				width:200px;
+			}
 		}
 		&__container{
 			padding:5% 9%;
