@@ -326,7 +326,9 @@
 
 @media (max-width: 991.98px) {
   .footer-section__top__container, .footer-section__bottom__container {
-    padding: 3% 4%; } }
+    padding: 3% 4%; }
+  .footer-section__top__social {
+    margin: 15px 0; } }
 
 .feedback-section {
   z-index: 99;
