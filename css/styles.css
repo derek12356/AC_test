@@ -60,7 +60,8 @@
   .nav-section__bottom ul {
     margin-left: auto; }
   .nav-section__bottom .nav-link {
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    color: #2a2a2a !important; }
     .nav-section__bottom .nav-link:hover {
       color: #c8c8c8 !important; }
 
@@ -68,7 +69,8 @@
   .nav-section .navbar {
     padding: 0; }
   .nav-section__wrap {
-    box-shadow: none; }
+    box-shadow: none;
+    background-color: #4a4f55; }
   .nav-section__user {
     display: block;
     color: #4a4f55;
@@ -90,7 +92,9 @@
   .nav-section__top__input {
     width: 180px; }
   .nav-section__bottom ul {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+  .nav-section__bottom .nav-link {
+    color: #fff !important; } }
 
 .header__wrap {
   background-color: #e5e5e5; }

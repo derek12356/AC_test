@@ -72,6 +72,7 @@
 		}
 		.nav-link{
 			font-size:1.8rem;
+			color:$color-text-dark !important;
 			&:hover{
 			color:$color-text-light !important;;
 			}
@@ -83,6 +84,7 @@
 		}
 		&__wrap{
 			box-shadow:none;
+			background-color:$color-grey-dark;
 		}
 		&__user{
 			display:block;
@@ -113,6 +115,9 @@
 		&__bottom{
 			  ul{
 			  	margin-left: 10px;
+			  }
+			  .nav-link{
+			  	color:#fff !important;
 			  }
 		}
 	}
