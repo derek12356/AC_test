@@ -1,5 +1,4 @@
 .header{
-	/*padding:0 12%;*/
 	&__wrap{
 		background-color:$color-grey-light;
 	}
@@ -23,15 +22,8 @@
 			
 		}
 	}
-	img{
-	  position: relative;
-	  margin-top:0px;
-	  max-width: 100%;
-	  height:auto;
-	  background-attachment: fixed;
-	  background-position: 10%;
-	  background-repeat: no-repeat;
-	  background-size: cover; 
+	&__img{
+		background-color: #F9F9F9;
 	}
 	@include media-breakpoint-down(md) { 
 		&__wrap{

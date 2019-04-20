@@ -31,7 +31,7 @@
 	&__top{
 		background-color:$color-grey-dark;
 		justify-content: flex-end;
-		padding-right:10%;
+		padding-right:5%;
 		&__lang{
 			img{
 				width:25px;
@@ -58,8 +58,8 @@
 		}
 		&__icon{
 			position: absolute;
-			top:2px;
-			right:10px;
+			top:4px;
+			right:18px;
 			background-color:transparent;
 			border:none; 
 		}

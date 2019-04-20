@@ -1,8 +1,5 @@
 .info-section{
 	background: linear-gradient(to bottom,#F9F9F9 0,rgba(255,255,255,.6) 50%,rgba(255,255,255,0) 100%), url("../img/page-bg.png");
-	&__container{
-		padding:5%;
-	}
 	&__wrap{
 		background-color: #fff;
 		border:1px solid $color-grey-light;
@@ -180,11 +177,12 @@
 		}
 		&__title{
 			h1{
-				font-size:2.2rem;
+				font-size:2rem;
 			}
 		}
-		&__container{
-		padding:1% 0;
+		.container{
+		padding: 1% 0;
+		max-width: 100%;
 		}
 		&__btn{
 			flex-direction: column;
