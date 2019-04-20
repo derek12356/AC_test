@@ -10,13 +10,16 @@
 	&__content{
 		color:$color-grey-dark;
 		font-size:1.4rem;
-		padding:2% 4%;
+		padding:4%;
 		ul{
 			padding:3px 0;
 			list-style-type: square;
 		}
 	}
 	&__form{
+			&__title{
+				font-size:1.8rem;
+			}
 			::placeholder{
 					font-weight:300;
 			}
@@ -64,6 +67,9 @@
 	    }
 	}
 	&__media{
+		&__title{
+			font-size:1.8rem;
+		}
 		&__check{	  
 				  display: block;
 				  position: relative;
