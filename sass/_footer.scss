@@ -1,0 +1,101 @@
+.footer-section{
+
+	&__top{
+		background-color: $color-footer-top;
+		&__title{
+		font-size:1.8rem;
+		color:#fff;
+			&-sm{
+				color:#fff;
+				font-size:1.4rem;
+			}
+			&-careers{
+				font-size:1.8rem !important;
+			}
+		}
+		&__text{
+			color:#fff;
+			font-size:1.4rem;
+		}
+		&__container{
+			padding:5% 12%;
+			ul{
+				list-style: none;
+				margin-top:8px;
+				li a{
+					color:#fff;
+					font-size: 1.4rem;
+				}
+			}
+		}
+		&__social{
+			&-icon{ 
+				    border: 1px solid $color-brown;
+				    border-radius: 50%;
+				    width: 45px;
+				    height: 45px;
+				    padding: 7px;
+				    display: inline-block;
+				    margin:0 3px;
+				    i{
+				    	color:$color-brown;
+				    	font-size:3rem;
+				    }
+				    a{
+				    	padding: 25px 20px 10px 10px;
+    					margin-left: -10px;
+    					cursor:pointer;
+				    }
+				    &:hover{
+				    	border-color:#fff;
+				    	i{
+				    		color:#fff;
+				    	}
+				    }
+			}
+			&-window{
+				position: relative;
+				i{
+					position: absolute;
+					top: 8px;
+					left: 9px;
+					color: $color-brown;
+				}
+			}
+			li{
+				display: inline;
+
+				i{
+					padding-right:20px;
+					font-size:3rem;
+				}
+			}
+		}
+	}
+	&__bottom{
+		background-color:$color-footer-bottom;
+		&__title{
+			font-size:1.4rem;
+			color:$color-grey-light;
+		}
+		&__container{
+			padding:5% 9%;
+
+				li a{
+					color:$color-grey-light;
+					font-size: 1.4rem;
+				}
+
+		}
+		
+	}
+	@include media-breakpoint-down(md){
+		&__top, &__bottom{
+			&__container{
+				padding:3% 4%;
+			}
+		}
+	}
+
+
+}

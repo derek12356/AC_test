@@ -1,0 +1,118 @@
+.nav-section{
+
+	.navbar{
+		padding:0;
+	}
+	::placeholder{
+		color:$color-grey-dark;
+		font-weight: 500;
+	}
+	&__wrap{
+		width:100%;
+		box-shadow: 0px -7px 15px $color-grey-dark;
+	}
+	.navbar-toggler{
+		border: none;
+		cursor: pointer; 
+	}
+	&__user{
+		display:none;
+	}
+	&__logo{
+		width:320px;
+		height:auto;
+	}
+	&__logo-mobile{
+		display:none;
+	}
+	&__top{
+		background-color:$color-grey-dark;
+		justify-content: flex-end;
+		padding-right:10%;
+		&__lang{
+			button{
+				border: none;
+			    background: transparent;
+			    color: white;
+			    font-size: 1.4rem;
+			}
+		}
+		&__searchwrap{
+			position:relative;
+		}
+		&__input{
+			width:250px;
+		    font-size: 1,4rem;
+		    text-indent: 7px;
+		    background-color: $color-grey-light;
+		    outline: 0;
+		    padding: 5px;
+		    border: none;
+		}
+		&__icon{
+			position: absolute;
+			top:2px;
+			right:10px;
+			background-color:transparent;
+			border:none; 
+		}
+
+	}
+	&__bottom{
+		/*padding:0 12%;*/
+		ul{
+			margin-left:auto;
+		}
+		.nav-link{
+			font-size:1.8rem;
+			&:hover{
+			color:$color-text-light !important;;
+			}
+		}
+	}
+	@include media-breakpoint-down(md) { 
+		.navbar{
+			padding:0;
+		}
+		&__wrap{
+			box-shadow:none;
+		}
+		&__user{
+			display:block;
+			color:$color-grey-dark;
+			margin-right:10px;
+		}
+		.navbar-toggler{
+			margin-left:10px;
+			padding:15px 0;
+		}
+		&__logo{
+			display:none;
+		}
+		&__logo-mobile{
+			max-width:210px;
+			height:auto;
+			width:100%;
+			display:block;
+			margin:15px 0;
+		}
+		&__top{
+			justify-content: flex-start;
+			padding:0 30px;
+		}
+		&__top__input{
+			width:180px;
+		}
+		&__bottom{
+			  ul{
+			  	margin-left: 10px;
+			  }
+		}
+	}
+	@include media-breakpoint-down(xs){
+		&__logo-mobile{
+			display:none;
+		}
+	}
+
+}

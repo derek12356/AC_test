@@ -1,0 +1,25 @@
+.feedback-section{
+  z-index:99;
+  position: fixed;
+  bottom: 20%;
+  right: -45px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  a {
+  display: block;
+  text-decoration: none;
+  border-radius: 0;
+  text-align: center;
+  padding: 8px 18px;
+  transition: all 0.3s ease;
+  color: $color-grey-dark;
+  font-size: 1.4rem;
+  background-color: $color-brown;
+  transform: rotate(-90deg);
+  &:hover{
+  	text-decoration: none;
+	color:#fff;
+  }
+  }
+}

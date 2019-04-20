@@ -1,0 +1,43 @@
+.header{
+	/*padding:0 12%;*/
+	&__wrap{
+		background-color:$color-grey-light;
+	}
+	&__nav{
+		
+	
+		&__list{
+
+			list-style:none;
+			margin-bottom: 0;
+			li{ 
+				padding:0 8px;
+				a{
+					color:$color-grey-dark;
+					font-size:14px;
+				}
+				display: inline;
+			    &:not(:last-child){
+				border-right:1px solid $color-grey-dark;
+				}
+			}
+			
+		}
+	}
+	img{
+	  position: relative;
+	  margin-top:0px;
+	  max-width: 100%;
+	  height:auto;
+	  background-attachment: fixed;
+	  background-position: 10%;
+	  background-repeat: no-repeat;
+	  background-size: cover; 
+	}
+	@include media-breakpoint-down(md) { 
+		&__wrap{
+			display: none;
+		}
+	
+	}
+}
