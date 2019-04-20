@@ -253,6 +253,8 @@
       padding: 0; }
     .info-section__title h1 {
       font-size: 2rem; }
+    .info-section__media__check {
+      padding: 0 5px 0 28px; }
     .info-section .container {
       padding: 1% 0;
       max-width: 100%; }
