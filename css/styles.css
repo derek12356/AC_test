@@ -242,14 +242,16 @@
       padding: 10px 40px; }
     .info-section__btn-clear {
       color: #D8292F;
-      border: 1px solid #D8292F; }
+      border: 1px solid #D8292F;
+      background-color: #fff; }
       .info-section__btn-clear:hover {
         background-color: #c41b21;
         color: #fff; }
     .info-section__btn-submit {
       color: #fff;
       background-color: #D8292F;
-      border-color: #D8292F; }
+      border-color: #D8292F;
+      border-style: solid; }
       .info-section__btn-submit:hover {
         background-color: #c41b21; }
   @media (max-width: 991.98px) {

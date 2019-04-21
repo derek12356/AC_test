@@ -155,6 +155,7 @@
 		&-clear{
 			color: $color-red;
 			border: 1px solid $color-red;
+			background-color:#fff;
 			&:hover{
 			   background-color:$color-darkred;
 			   color:#fff;
@@ -164,6 +165,7 @@
 			color:#fff;
 			background-color: $color-red;
 			border-color: $color-red;
+			border-style:solid;
 			&:hover{
 				background-color: $color-darkred;
 			}
